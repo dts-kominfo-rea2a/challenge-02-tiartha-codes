@@ -43,8 +43,6 @@ function lakukanLooping(arrPegawai) {
   hasilLooping = []
   let index = 0;
   while (dataYangAkanDilooping[index]){
-    // let namaPegawai = '';
-    // namaPegawai =+ '${dataYangAkanDilooping[index].namaDepan} ${dataYangAkanDilooping[index].namaBelakang}';
     let namaDepanPegawai = dataYangAkanDilooping[index].namaDepan;
     let namaBelakangPegawai = dataYangAkanDilooping[index].namaBelakang;
     hasilLooping.push(namaDepanPegawai + " " + namaBelakangPegawai);
@@ -72,7 +70,7 @@ function lakukanLooping(arrPegawai) {
   if (jumlahPria > jumlahWanita) {
     komentar = 'Jumlah Pria lebih banyak dari Wanita.';
   } else if (jumlahPria < jumlahWanita) {
-    komentar = 'Jumlah Wanita lebih banyak dari Pria.';
+    komentar = 'Jumlah Wanita lebih banyak dari Pria';
   } else {
     komentar = 'Jumlah Pria dan Wanita berimbang.';
   }
